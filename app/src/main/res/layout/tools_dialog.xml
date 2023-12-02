@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_bottom_dialog"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_marginTop="12sp"
+        android:layout_gravity="center"
+        android:layout_width="36sp"
+        android:layout_height="2sp"
+        android:background="@drawable/bacground_view"/>
+
+   <TextView
+       android:textSize="18sp"
+       android:text="Шкаф"
+       android:layout_marginTop="18sp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:textColor="@color/black"
+       android:id="@+id/name_tools"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="16sp"
+        android:paddingLeft="16sp"
+        android:paddingRight="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv"/>
+</LinearLayout>
