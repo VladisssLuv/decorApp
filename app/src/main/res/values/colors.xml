@@ -10,5 +10,6 @@
 
     <color name="greenApp">#8EC57B</color>
     <color name="greenLight">#50F715</color>
+    <color name="greenBlack">#127B09</color>
 
 </resources>
